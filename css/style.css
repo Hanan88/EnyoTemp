@@ -1,0 +1,299 @@
+*
+{box-sizing: border-box;}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Open-Sans", sans-serif;
+}
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{overflow: hidden}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(37,54,93);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.5s
+}
+/*===========HEADER===================*/
+header
+{
+    background: rgb(1,147,220);
+    width: 100%;
+    padding: 30px 0;
+    position: absolute;
+}
+header.Hscrl {
+	position: fixed;
+	width: 100%;
+	background: #0394dd;
+	box-shadow: 0px 2px 11px 0px white;
+	padding: 20px 0;
+}
+header .logo
+{
+    width: 20%;
+    float: left;
+}
+header nav
+{
+    width: 70%;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 39%;
+}
+nav ul
+{
+    list-style: none;
+}
+nav ul li
+{
+    float: left;
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+nav ul li :hover
+{color: rgb(255,40,104);}
+
+header .search
+{
+    width: 10%;
+    float: left;
+}
+/*==============BANNER============*/
+.banner
+{
+    background: url(../images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 1338px;
+    display: block;
+}
+.bannerDataTop
+{
+    padding-top: 187px;
+    max-width: 825px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.bannerDataTop h1
+{
+    font-size: 56px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.bannerDataTop p
+{
+    color: rgb(187, 216, 255);
+    font-size: 25px;
+    line-height: 40px;
+    padding: 8px 0 30px;
+}
+button i
+{
+    margin-right: 10px;
+}
+button:hover
+{background-color: rgb(255,40,104);}
+
+/*==============DOWNLOAD============*/
+.downloadIt
+{
+    margin-bottom: 125px;
+}
+.row h2
+{
+    text-transform: uppercase;
+    color: rgb(37,54,93);
+    margin-bottom: 45px;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+.row h5
+{
+    color: rgb(117,117,117);
+    padding-right: 520px;
+    padding-bottom: 30px;
+    font: inherit;
+    line-height: 30px;
+}
+.row p
+{
+    color: rgb(147, 170, 201);
+}
+.check
+{
+    border: 1px solid red;
+    float: left;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.downloadIt button
+{
+    margin-top: 60px;
+}
+.downloadIt img
+{
+    margin-left: 300px;
+    margin-top: -437px;
+}
+/*===============SERVICE==============*/
+.service
+{
+    background: rgb(247, 249, 251);
+    min-height: 600px;
+    padding-top: 150px;
+}
+.service .row
+{
+    width: 100%;
+    
+}
+.service .col
+{
+    width: 32%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service span 
+{
+    width: 70px;
+    float: left;
+    display: block;
+    min-height: 230px;
+    font-size: 50px;
+    color: rgb(116, 116, 116);
+}
+.service h3
+{
+    color: rgb(37,54,93);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.col p
+{
+    line-height: 30px
+}
+/*================FEATURES===================*/
+.features
+{
+    padding: 150px 0 100px;
+    text-align: center;
+}
+/*===============PLAN=====================*/
+.plan
+{
+    text-align: center;
+    background-color: rgb(234, 237, 241);
+    padding: 150px 0 100px;
+    min-height: 200px;
+}
+.prices
+{
+    width: 100%;
+    margin-top: 80px;
+}
+.pricePlan
+{
+    background-color: #fff;
+    width: 30%;
+    padding: 30px;
+    float: left;
+    margin-left: 30px;
+    padding-right: 0;
+}
+.pricePlan h3
+{
+    text-transform: uppercase;
+    color: rgb(90,90,90);
+    font-weight: inherit;
+}
+.pricePlan h2 span
+{
+    font-size: 20px;
+    color: rgb(90,90,90);
+    font-family: "Open Sans", sans-serif;
+    text-transform: lowercase;
+    font-weight: lighter;
+    
+}
+.question
+{
+    margin-top: 80px;
+}
+.row h4
+{
+    font-size: 22px;
+    color: #25365d;
+    margin: 15px 0 25px;
+    text-transform: uppercase;
+}
+.question p
+{
+    line-height: 33px;
+}
+.contact
+{
+    margin-left: 305px;
+}
+.contact p
+{
+    width: 35%;
+    color: rgb(37,54,93);
+    font-size: 22px;
+    float: left
+}
+.contact i 
+{
+    margin-right: 10px;
+}
+/*===================DOWNLOADFREE=========================*/
+.downloadFree
+{
+    text-align: center;
+}
+.downloadFree p
+{
+    margin-bottom: 80px;
+}
+/*===================FOOTER=========================*/
+footer
+{
+    background-image: url(../images/bottombanner.jpg);
+    background-size: cover;
+    text-align: center;
+    min-height: 700px;
+    margin-top: 20px;
+}
+footer a
+{
+    color: #337ab7;
+}
